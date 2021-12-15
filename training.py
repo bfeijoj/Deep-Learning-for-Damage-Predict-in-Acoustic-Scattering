@@ -69,15 +69,3 @@ def training(inspecting_location, path, hidden_layers, patience = 150, test_size
 	plt.show()
 
 	return plt.show()
-
-#plt.figure(figsize = (12, 8))
-#plt.plot(np.log(history.history['mse']), label = 'Training', color = 'b')
-#plt.plot(np.log(history.history['val_mse']), label = 'Validation', color = 'r')
-#plt.title('Mean Squared Error', size = 28)
-#plt.xlabel('Epochs', size = 28)
-#plt.ylabel('log(Loss)', size = 28)
-#plt.tick_params(axis='x', labelsize=20)
-#plt.tick_params(axis='y', labelsize=20)
-#plt.legend(fontsize = 20)
-#plt.grid(color = 'b', alpha = 0.5, linestyle = 'dashed', linewidth = 0.5)
-#plt.show()
